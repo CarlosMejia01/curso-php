@@ -18,4 +18,13 @@ $web = "nuevawebtwo.com";
 
 echo '<h1>'.$web.'</h1>';
 
+//Constantes predefinidas
+echo __FUNCTION__;
+echo '<br>';
+echo PHP_OS;
+echo '<br>';
+echo __FILE__;
+
+
+
 ?>
