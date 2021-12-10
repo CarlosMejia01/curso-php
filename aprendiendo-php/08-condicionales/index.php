@@ -115,6 +115,33 @@ if ($dia == 1) {
 
 echo "<br>";
 
+//Switch
+
+$dia = 6;
+echo "Dia con switch : ";
+switch ($dia) {
+    case 1:
+        echo "Lunes";
+        break;
+    case 2:
+        echo "Martes";
+        break;
+    case 3:
+        echo "Miercoles";
+        break;
+    case 4:
+        echo "Jueves";
+        break;
+    case 5:
+        echo "Viernes";
+        break;
+    default:
+        echo "Es fin de semana";
+}
+
+
+echo "<br>";
+
 //Ejemplo 5
 
 $edad1 = 18;
@@ -131,7 +158,7 @@ if ($edad_oficial >= $edad1 && $edad_oficial <= $edad2) {
 echo "<br>";
 
 $pais = "Francia";
-if($pais == "Mexico" || $pais == "España" || $pais == "Colombia") {
+if ($pais == "Mexico" || $pais == "España" || $pais == "Colombia") {
     echo "En este pais se habla español";
 } else {
     echo "No se habla español";
