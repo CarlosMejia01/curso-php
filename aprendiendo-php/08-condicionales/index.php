@@ -21,7 +21,18 @@ Operadores de comparación
     > "mayor que"
     <= "menor o igual que"
     >= "mayor o igual que"
+
 */
+
+/*
+    Operadores Logicos
+    && And Y
+    || Or O
+    ! Not No
+
+*/
+
+
 //Ejemplo 1
 $color = "verde";
 
@@ -100,4 +111,28 @@ if ($dia == 1) {
     echo "Viernes";
 } else {
     echo "Fin de semana";
+}
+
+echo "<br>";
+
+//Ejemplo 5
+
+$edad1 = 18;
+$edad2 = 64;
+$edad_oficial = 17;
+
+if ($edad_oficial >= $edad1 && $edad_oficial <= $edad2) {
+    echo "Esta en edad de trabajar";
+} else {
+    echo "No puede trabajar";
+}
+
+
+echo "<br>";
+
+$pais = "Francia";
+if($pais == "Mexico" || $pais == "España" || $pais == "Colombia") {
+    echo "En este pais se habla español";
+} else {
+    echo "No se habla español";
 }
