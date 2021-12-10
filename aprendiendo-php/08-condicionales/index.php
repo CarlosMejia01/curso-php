@@ -163,3 +163,14 @@ if ($pais == "Mexico" || $pais == "España" || $pais == "Colombia") {
 } else {
     echo "No se habla español";
 }
+
+//GOTO
+goto marca;
+echo "<br>";
+echo "<h3>Intruccion 1</h3>";
+echo "<h3>Intruccion 2</h3>";
+echo "<h3>Intruccion 3</h3>";
+echo "<h3>Intruccion 4</h3>";
+
+marca:
+echo "<h3>Me he saltado 4 echos</h3>";
