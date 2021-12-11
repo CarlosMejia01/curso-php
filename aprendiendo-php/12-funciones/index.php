@@ -1,0 +1,50 @@
+<?php
+
+
+/**
+ * Funciones: 
+ * Una función es un conjunto de instrucciones agrupadas bajo un nombre concreto y que pueden reutilzarse solamente invocando 
+ * la función tantas veces como se requiera.
+ * 
+ * function nombreDeMiFuncion($params){
+ *      ..Codigo
+ * }
+ * 
+ * Invocar función:
+ * nombreDeMiFuncion($params);
+ * 
+ */
+
+//Ejemplo1
+/*
+function muestraNombres() {
+    echo "Carlos Andres <br>";
+    echo "Mathew Roberts <br>";
+    echo "Peter Parker <br>";
+    echo "Jhon Ruiz <br>";
+    echo "<hr/>";
+};
+
+muestraNombres();
+muestraNombres();
+muestraNombres();
+*/
+//Ejemplo 2
+
+
+function tabla($numero) {
+    echo "<h3>Tabla de multiplicar del número $numero </h3>";
+    for ($i=0; $i <= 10; $i++) { 
+        echo "$numero x $i = ".($numero*$i)."<br>";
+    };
+};
+if(isset($_GET['numero'])) {
+    tabla($_GET['numero']);
+} else {
+    echo "No hay número para sacar la tabla";
+}
+
+
+
+
+?>
