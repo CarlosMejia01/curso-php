@@ -1,4 +1,4 @@
-<?php require 'includes/cabecera.php';?>
+<?php require_once 'includes/cabecera.php';?>
 <!-- Contenido -->
 <div>
     <h2>Esta es la página de Inicio</h2>
@@ -6,4 +6,4 @@
 </div>
 <?php var_dump($nombre) ?>
 <!-- Pie de pagina -->
-<?php include 'includes/footer.php';?>
+<?php require_once 'includes/footer.php';?>
