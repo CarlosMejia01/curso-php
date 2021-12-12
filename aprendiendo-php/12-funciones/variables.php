@@ -23,6 +23,26 @@
 
  };
 
- echo holaMundo();
+ //echo holaMundo();
+
+ //Funciones variables
+
+ function buenosDias() {
+     return "Hola! Buenos días";
+ };
+
+ function buenasTardes() {
+    return "Hola! Buenas tardes";
+ };
+
+ function buenasNoches() {
+    return "Hola! Buenas noches";
+ };
+
+
+ $horario = $_GET['horario'];
+ echo "<br>";
+ $miFuncion = "buenas".$horario;
+ echo $miFuncion();
 
 ?>
