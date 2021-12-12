@@ -15,6 +15,16 @@ $peliculas = array('Batman', 'Spiderman', 'El señor de los anillos');
 
 $cantantes = ['2pac', 'Drake', 'Jennifer Lopez'];
 
+//Array asociativos
+$personas = array(
+    'nombre' => 'Charly',
+    'apellidos' => 'One',
+    'web' => 'webejemplo.com'
+);
+
+var_dump($_GET);
+echo "<br>";
+var_dump($personas);
 
 //Recorrer con for
 echo "<h1>Listado de peliculas</h1>";
