@@ -79,11 +79,29 @@ function calculadora($numero1, $numero2, $negrita = false) {
 
 echo calculadora(10, 20, true);
 
-function devuelveElNombre($nombre) {
-    return "El nombre es: $nombre";
+//Ejemplo 4
+
+function getNombre($nombre){
+    $texto = "El nombre es: $nombre";
+    return $texto;
 };
 
-echo devuelveElNombre("Charly");
+function getApellidos($apellidos){
+    $texto = "Los apellidos son: $apellidos";
+    return $texto;
+};
+
+function devuelveElNombre($nombre, $apellidos) {
+    $texto = getNombre($nombre)
+             ."<br/>".
+             getApellidos($apellidos);
+    return $texto;
+};
+
+echo devuelveElNombre("Charly", "One");
+// echo getNombre("texxttt");
+
+
 
 
 ?>
