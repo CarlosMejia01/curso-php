@@ -46,5 +46,25 @@ foreach ($cantantes as $cantante) {
 }
 echo "</ul>";
 
+//Arrays multidimensionales
+echo "<br>";
+$contactos = array(
+        array(
+            'nombre' => 'Charly',
+            'email' => 'charlyone@gmail.com'
+        ),
+        array(
+            'nombre' => 'Luis',
+            'email' => 'luisone@gmail.com'
+        ),
+        array(
+            'nombre' => 'Antonio',
+            'email' => 'Antonio_01@gmail.com'
+        ),
+    );
+
+foreach ($contactos as $key => $contacto) {
+    var_dump($contacto['nombre']);
+}
 
 ?>
