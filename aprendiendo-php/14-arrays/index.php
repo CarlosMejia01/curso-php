@@ -65,6 +65,10 @@ $contactos = array(
 
 foreach ($contactos as $key => $contacto) {
     var_dump($contacto['nombre']);
-}
+};
+
+
+
+
 
 ?>
