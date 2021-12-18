@@ -12,17 +12,17 @@
 
  if(gettype($array) === 'array') {
 
-    echo "La variable $array es array";
+    echo "La variable array es array"."<br>";
 
  } 
  
- if($string === 'string') {
+ if(gettype($string) === 'string') {
 
-    echo "La variable $string es string";
+    echo "La variable $string es string"."<br>";
 
 
  } 
  
- if ($boolean === true) {
-    echo "La variable $string es boolean";
+ if (gettype($boolean) === 'boolean') {
+    echo "La variable $boolean es boolean"."<br>";
  }
