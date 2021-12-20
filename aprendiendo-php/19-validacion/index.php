@@ -11,6 +11,25 @@
                     echo "<strong style='color: red;'>Introduce todos los datos en todos los campos
                     del formulario</strong>";
                 }
+                if($error == "nombre") {
+                    echo "<strong style='color: red;'>Introduce bien el nombre</strong>";
+                }
+                if($error == "apellidos") {
+                    echo "<strong style='color: red;'>Los apellidos no son correctos
+                    del formulario</strong>";
+                }
+                if($error == "edad") {
+                    echo "<strong style='color: red;'>Introduce una edad correcta
+                    del formulario</strong>";
+                }
+                if($error == "email") {
+                    echo "<strong style='color: red;'>El correo es erroneo
+                    del formulario</strong>";
+                }
+                if($error == "pass") {
+                    echo "<strong style='color: red;'>Introduce una contraseña de más de 5 letras
+                    del formulario</strong>";
+                }
             }
         ?>
         <form action="procesar_formulario.php" method="POST">
